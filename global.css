@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap");
+body {
+  margin: 0;
+  font-family: Lato;
+}
+
+html,
+body,
+#___gatsby {
+  height: 100%;
+}
+
+body {
+  margin: 0px;
+}
+
+body * {
+  -webkit-font-smoothing: antialiased;
+}
+
+div[role="group"][tabindex] {
+  height: 100%;
+}
+
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+@tailwind screens;
