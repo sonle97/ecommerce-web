@@ -10,7 +10,7 @@ export const ProductListStyled = styled.div`
   justify-content: space-between;
 
   @media (min-width: 960px) {
-    max-width: 75%;
+    max-width: 100%;
     padding: 0 15px 30px 0;
   }
 

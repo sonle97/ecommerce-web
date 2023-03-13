@@ -29,7 +29,7 @@ const Category = () => {
 
         <div className="flex item-start justify-between w-full mt-5">
           <ProductList />
-          <CategoryTab className="hidden mdx:block" />
+          {/* <CategoryTab className="hidden mdx:block" /> */}
         </div>
       </WrapperPage>
     </ContainerPage>
